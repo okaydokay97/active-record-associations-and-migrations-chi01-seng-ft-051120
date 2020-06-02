@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+<<<<<<< HEAD
     activemodel (5.2.4.1)
       activesupport (= 5.2.4.1)
     activerecord (5.2.4.1)
@@ -8,25 +9,50 @@ GEM
       activesupport (= 5.2.4.1)
       arel (>= 9.0)
     activesupport (5.2.4.1)
+=======
+    activemodel (5.2.4.3)
+      activesupport (= 5.2.4.3)
+    activerecord (5.2.4.3)
+      activemodel (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
+      arel (>= 9.0)
+    activesupport (5.2.4.3)
+>>>>>>> d773f004ff6e091ba308153f5b74fc02c74d8f69
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (9.0.0)
+<<<<<<< HEAD
     coderay (1.1.2)
     concurrent-ruby (1.1.6)
     database_cleaner (1.7.0)
+=======
+    coderay (1.1.3)
+    concurrent-ruby (1.1.6)
+    database_cleaner (1.8.5)
+>>>>>>> d773f004ff6e091ba308153f5b74fc02c74d8f69
     diff-lcs (1.3)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     method_source (1.0.0)
+<<<<<<< HEAD
     minitest (5.13.0)
     mustermann (1.0.3)
+=======
+    minitest (5.14.1)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+>>>>>>> d773f004ff6e091ba308153f5b74fc02c74d8f69
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
     rack (2.2.2)
+<<<<<<< HEAD
     rack-protection (2.0.7)
+=======
+    rack-protection (2.0.8.1)
+>>>>>>> d773f004ff6e091ba308153f5b74fc02c74d8f69
       rack
     rake (13.0.1)
     rspec (3.9.0)
@@ -42,6 +68,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
+<<<<<<< HEAD
     sinatra (2.0.7)
       mustermann (~> 1.0)
       rack (~> 2.0)
@@ -49,6 +76,16 @@ GEM
       tilt (~> 2.0)
     sinatra-activerecord (2.0.14)
       activerecord (>= 3.2)
+=======
+    ruby2_keywords (0.0.2)
+    sinatra (2.0.8.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.8.1)
+      tilt (~> 2.0)
+    sinatra-activerecord (2.0.18)
+      activerecord (>= 4.1)
+>>>>>>> d773f004ff6e091ba308153f5b74fc02c74d8f69
       sinatra (>= 1.0)
     sqlite3 (1.3.13)
     thread_safe (0.3.6)
@@ -69,4 +106,8 @@ DEPENDENCIES
   sqlite3 (~> 1.3.6)
 
 BUNDLED WITH
+<<<<<<< HEAD
    2.1.4
+=======
+   2.0.1
+>>>>>>> d773f004ff6e091ba308153f5b74fc02c74d8f69
